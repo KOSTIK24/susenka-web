@@ -1,0 +1,39 @@
+:root {
+  --bg: #111;
+  --text: #fff;
+  --accent: #f9b233;
+}
+
+body.light {
+  --bg: #fff;
+  --text: #111;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.logo .color {
+  color: var(--accent);
+}
+
+nav a {
+  color: var(--text);
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.discord-button {
+  background-color: #5865F2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
